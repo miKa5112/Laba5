@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Лабораторна_5</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+     <table class="Table">
+        <tr>
+          <th colspan="2" width="125" class="name">Pizza Shop</th>
+        </tr>
+        <tr>
+          <td width="125px">Your name</td>
+          <td width="300px">
+            <input type="text" size="45" required placeholder="Write your name here" pattern="[A-Za-z]{2,64} [A-Za-z]{2,64}" title="Please enter your name" class="yname"> 
+          </td>
+       </tr>
+       <tr>
+         <td width="125px">Pizza Topping</td>
+         <td>
+            <input type="radio" name="radiobutton" checked> Meat pizza <br>
+            <input type="radio" name="radiobutton"> Vegeterian <br>
+            <input type="radio" name="radiobutton"> Pepperoni <br>
+         </td>
+       </tr>
+       <tr>
+         <td>Pizza Sauce</td>
+         <td>
+            <select>
+                <option selected>Select one sauce...</option>
+                <option value="Creamy">Creamy</option>
+                <option value="Garlic">Garlic</option>
+                <option value="Ketchup">Ketchup</option>
+                <option value="Cheese">Cheese</option>
+           </select>
+         </td>
+       </tr>
+       <tr>
+         <td>Optional Extras</td>
+         <td>
+            <input type="checkbox"> Extra Cheese
+            <input type="checkbox"> Gluten Free Base
+         </td>
+       </tr>
+       <tr>
+         <td colspan="2">Dilivery instructions:<br>
+         <textarea cols="57" rows="3" placeholder="Enter your delivery wishes" class="inst"></textarea></td>
+       </tr>
+       <tr>
+         <td colspan="2" class="but1"><input type="submit" value="Send my Order" class="bu2"></td>
+       </tr>
+     </table>
+    </body>
+</html>
